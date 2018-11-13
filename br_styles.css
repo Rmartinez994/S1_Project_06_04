@@ -21,6 +21,23 @@ html {
     background-color: rgb(190, 229, 241);
 }
 
+/* What these lines of code do is make the background of the html a baby blue color. */
+
+img#logo {
+    background-image: url(br_paper.png);
+    border: 1px solid black;
+}
+
+/* What these lines of code do is put the paper picture behide the logo of the webpage. */
+
+
+
+body {
+    box-shadow: rgb(51, 51, 51) 10px 10px 50px, rgb(51, 51, 51) -10px 10px 50px;
+}
+
+/* What these lines of code do is make a box shadow around the entire body of the website. */
+
 body {
     background-image: url(background.jpeg);
     background-attachment: fixed;
@@ -30,12 +47,26 @@ body {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
-    max-width: 960px;
+    max-width: 1100px;
     min-width: 640px;
     position: relative;
     border: 1px solid rgb(102, 101, 101);
-
 }
+
+/* What all these lines of code do is it puts a body to the webpage that is 1100px in max width. It also put a border around the the body of the page, and finally it put a background image for the entire body of the webpage.   */
+
+
+
+body nav.toplinks li {
+    float: left;
+    letter-spacing: 0.1em;
+    margin-top: 50px;
+    width: 20%;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+/* What these lines of code do is make the top links of the webpage display horizonatlly at the top of the page. */
 
 nav a:link,
 nav a:visited {
@@ -48,17 +79,18 @@ nav a:active {
     color: rgb(255, 255, 255);
 }
 
-
+/* These line of code make it where, when ever you hover over the links it will change its color to white. */
 
 header img {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 100%;
+    width: 100%
 }
 
+/* These lines of code make it where it centers the logo and also makes it where the logo cover all of the top of the webpage.  */
 aside {
-    margin-left: 20px;
+    margin-left: 775px;
     margin-top: 10px;
     margin-bottom: 20px;
     overflow: auto;
@@ -66,9 +98,23 @@ aside {
     width: 300px;
     border: 1px solid black;
     background-color: white;
+    box-shadow: rgb(51, 51, 51) 10px 10px 50px, rgb(51, 51, 51) -10px 10px 50px;
 }
+
+/* What these lines of code do is make it where it puts a scroll wheel for all of the images of the house. */
+
+
+article.listing {
+    margin-left: 775px;
+}
+
+/* This line of code makes the listing description move to the right side of the page. */
+
 
 
 footer {
-    background-color: aliceblue
+    background-color: aliceblue;
+
 }
+
+/* This line of code adds a background color to the footer. */
